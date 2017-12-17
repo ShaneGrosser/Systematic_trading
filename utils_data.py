@@ -53,7 +53,7 @@ def get_data(months, years, seasonality):
     df = df.unstack()
     df = df.loc[:, 0]
     df.reset_index(inplace=True)
-    df = df[contracts]
+    df = df[['UTCDate',contracts]]
     return df
 
 
