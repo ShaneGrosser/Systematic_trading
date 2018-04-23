@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn import cluster
 
-df = pd.read_excel('P:/Coding/Technical/S18_hist.xlsx')
+
 df = df.set_index('Date (GMT)')
 
 price_data = df.as_matrix(columns = ['Last'])
