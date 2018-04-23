@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 from utils import create_positions_dictionary
 
-df = pd.read_excel('P:/Coding/Strategies/NBP/nbpttf_data.xlsx',sheetname = 'nov')
 
 #sv = float(input('Set sell volume in ktherms: '))#sell volume in thousand therms
 sv = 100
